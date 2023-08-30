@@ -1,4 +1,5 @@
 import Note from '@/app/components /Note';
+import CreateNote from './[id]/CreateNote';
 
 
 
@@ -26,6 +27,8 @@ export default async function NotesPage(){
                 note = {note}
                 />
             })}
+
+            <CreateNote/>
         </div>
     )
 }
